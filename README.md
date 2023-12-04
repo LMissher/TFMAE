@@ -16,11 +16,11 @@ The most fundamental challenge for time series anomaly detection is to to identi
 ## Main Result
 We compare our model with 14 baselines based on various metrics. Extensive experiments show that TFMAE achieves the best performance on five benchmark datasets compared to state-of-the-arts.
 
-|![Figure1](pics/mainres.png)|
+|![Figure2](pics/mainres.png)|
 |:--:| 
 | *Table 1. Overall results on real-world datasets.* |
 
-|![Figure1](pics/eff.png)|
+|![Figure3](pics/eff.png)|
 |:--:|
 | *Figure 2. Performance metrics are compared on the SMD dataset, with F1-Score represented in $\%$ on the $y$-axis, speed on the $x$-axis, and memory footprint indicated by the size of the circles for each method.* |
 
