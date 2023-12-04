@@ -6,9 +6,7 @@
 
 The most fundamental challenge for time series anomaly detection is to to identify observations that differ significantly from the remaining observations. Reconstruction-based methods still dominate, but the representation learning with anomalies bias and distribution shifts might hurt the performance. In this paper, we propose temporal-frequency masked autoencoders (TFMAE), a unsupervised time series anomaly detection model.
 
-- **Overall**: DCdetector utilizes a novel dual attention asymmetric design to create the permutated environment and pure contrastive loss to guide the learning process, thus learning a permutation invariant representation with superior discrimination abilities.
-
-- **Architecture**: Overall architecture of the proposed TFMAE. The left part contains temporal-frequency masks, the middle part is transformer-based autoencoders, and the right part shows our objective functions. $D_{KL}$ means the Kullback–Leibler divergence.
+- **Overall**: Overall architecture of the proposed TFMAE. The left part contains temporal-frequency masks, the middle part is transformer-based autoencoders, and the right part shows our objective functions. $D_{KL}$ means the Kullback–Leibler divergence.
 
 |![Figure1](pics/model.png)|
 |:--:| 
