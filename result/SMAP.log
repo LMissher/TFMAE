@@ -1,0 +1,37 @@
+------------ Options -------------
+anormly_ratio: 0.75
+batch_size: 64
+config: config/SMAP.conf
+d_model: 128
+data_path: dataset/SMAP
+dataset: SMAP
+e_layers: 3
+fr: 0.3
+gpu: 2
+input_c: 25
+lr: 0.0001
+mode: test
+model_save_path: cpt
+num_epochs: 1
+output_c: 25
+seed: 1
+seq_size: 10
+tr: 0.65
+win_size: 100
+-------------- End ----------------
+test: (427617, 25)
+train: (108146, 25)
+test: (427617, 25)
+train: (108146, 25)
+test: (427617, 25)
+train: (108146, 25)
+test: (427617, 25)
+train: (108146, 25)
+======================TEST MODE======================
+Threshold : 0.49202461920678375
+pred:    (427600,)
+gt:      (427600,)
+pred:  (427600,)
+gt:    (427600,)
+inputs:    (427600, 25)
+Accuracy : 0.9919, Precision : 0.9471, Recall : 0.9919, F-score : 0.9690 

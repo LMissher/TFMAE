@@ -1,0 +1,38 @@
+------------ Options -------------
+anormly_ratio: 0.9
+batch_size: 64
+config: config/PSM.conf
+d_model: 128
+data_path: dataset/PSM
+dataset: PSM
+e_layers: 3
+fr: 0.1
+gpu: 0
+input_c: 25
+lr: 0.0001
+mode: all
+model_save_path: cpt
+num_epochs: 1
+output_c: 25
+seed: 1
+seq_size: 10
+tr: 0.65
+win_size: 100
+-------------- End ----------------
+test: (87841, 25)
+train: (105984, 25)
+test: (87841, 25)
+train: (105984, 25)
+test: (87841, 25)
+train: (105984, 25)
+test: (87841, 25)
+train: (105984, 25)
+======================TRAIN MODE======================
+Epoch: 1, Steps: 1655 | Train Loss: 0.0000000 Vali Loss: 0.0000000 
+======================TEST MODE======================
+Threshold : 0.6034114753007849
+pred:    (87800,)
+gt:      (87800,)
+pred:  (87800,)
+gt:    (87800,)
+Accuracy : 0.9920, Precision : 0.9806, Recall : 0.9906, F-score : 0.9856 

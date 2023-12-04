@@ -1,0 +1,39 @@
+------------ Options -------------
+anormly_ratio: 0.9
+batch_size: 64
+config: config/MSL.conf
+d_model: 128
+data_path: dataset/MSL
+dataset: MSL
+e_layers: 3
+fr: 0.4
+gpu: 2
+input_c: 55
+lr: 0.0001
+mode: all
+model_save_path: cpt
+num_epochs: 1
+output_c: 55
+seed: 1
+seq_size: 10
+tr: 0.55
+win_size: 100
+-------------- End ----------------
+test: (73729, 55)
+train: (46653, 55)
+test: (73729, 55)
+train: (46653, 55)
+test: (73729, 55)
+train: (46653, 55)
+test: (73729, 55)
+train: (46653, 55)
+======================TRAIN MODE======================
+Epoch: 1, Steps: 728 | Train Loss: 0.0000000 Vali Loss: 0.0000000 
+======================TEST MODE======================
+Threshold : 0.733970403134823
+pred:    (73700,)
+gt:      (73700,)
+pred:  (73700,)
+gt:    (73700,)
+inputs:    (73700, 55)
+Accuracy : 0.9895, Precision : 0.9283, Recall : 0.9759, F-score : 0.9515

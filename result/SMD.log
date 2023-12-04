@@ -1,0 +1,36 @@
+------------ Options -------------
+anormly_ratio: 0.45
+batch_size: 64
+config: config/SMD.conf
+d_model: 128
+data_path: dataset/SMD
+dataset: SMD
+e_layers: 3
+fr: 0.2
+gpu: 0
+input_c: 38
+lr: 0.0001
+mode: test
+model_save_path: cpt
+num_epochs: 1
+output_c: 38
+seed: 1
+seq_size: 10
+tr: 0.05
+win_size: 100
+-------------- End ----------------
+test: (708420, 38)
+train: (566724, 38)
+test: (708420, 38)
+train: (566724, 38)
+test: (708420, 38)
+train: (566724, 38)
+test: (708420, 38)
+train: (566724, 38)
+======================TEST MODE======================
+Threshold : 0.9399484320580953
+pred:    (708400,)
+gt:      (708400,)
+pred:  (708400,)
+gt:    (708400,)
+Accuracy : 0.9927, Precision : 0.9141, Recall : 0.9107, F-score : 0.9124 
