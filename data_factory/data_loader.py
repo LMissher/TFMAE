@@ -201,14 +201,14 @@ class SWaTSegLoader(object):
         self.step = step
         self.win_size = win_size
         self.scaler = StandardScaler()
-        data = np.load(data_path + "/SWaT_train.npy")
+        data = np.load(data_path + "/SWaT_train.npy", allow_pickle=True)
         self.scaler.fit(data)
         data = self.scaler.transform(data)
-        test_data = np.load(data_path + "/SWaT_test.npy")
+        test_data = np.load(data_path + "/SWaT_test.npy", allow_pickle=True)
         self.test = self.scaler.transform(test_data)
         self.train = data[:(int)(len(data) * 0.8)]
         self.val = data[(int)(len(data) * 0.8):]
-        self.test_labels = np.load(data_path + "/SWaT_test_label.npy")
+        self.test_labels = np.load(data_path + "/SWaT_test_label.npy", allow_pickle=True)
         print("test:", self.test.shape)
         print("train:", self.train.shape)
 
