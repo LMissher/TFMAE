@@ -20,7 +20,7 @@ We compare our model with 14 baselines based on various metrics. Extensive exper
 |:--:| 
 | *Table 1. Overall results on real-world datasets.* |
 
-|![image](pics/eff.png)|
+|![Figure1](pics/eff.png)|
 |:--:|
 | *Figure 2. Performance metrics are compared on the SMD dataset, with F1-Score represented in $\%$ on the $y$-axis, speed on the $x$-axis, and memory footprint indicated by the size of the circles for each method.* |
 
