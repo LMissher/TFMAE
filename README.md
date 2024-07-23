@@ -2,7 +2,7 @@
 
 **Temporal-Frequency Masked Autoencoders for Time Series Anomaly Detection**
 
-This is a official PyTorch implementation of the paper: [Temporal-Frequency Masked Autoencoders for Time Series Anomaly Detection]().
+This is a official PyTorch implementation of the paper: [Temporal-Frequency Masked Autoencoders for Time Series Anomaly Detection](https://github.com/LMissher/TFMAE/blob/main/paper/TFMAE.pdf).
 
 The most fundamental challenge for time series anomaly detection is to to identify observations that differ significantly from the remaining observations. Reconstruction-based methods still dominate, but the representation learning with anomalies bias and distribution shifts might hurt the performance. In this paper, we propose temporal-frequency masked autoencoders (TFMAE), a unsupervised time series anomaly detection model.
 
@@ -36,6 +36,7 @@ There are nine files/folders in the source.
 - dataset: The dataset folder, and you can unzip these files.
 - model: TFMAE model folder. The details can be corresponding to paper’s Section Section IV.
 - pics: Images needed in readme.md.
+- paper: Paper in PDF.
 - result: In our code demo, we can automatically save the results and hyper-parameters in this folder.
 
 
