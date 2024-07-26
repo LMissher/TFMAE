@@ -60,6 +60,7 @@ python main.py --config config/SWaT.conf
   title={Temporal-Frequency Masked Autoencoders for Time Series Anomaly Detection},
   author={Fang, Yuchen and Xie, Jiandong and Zhao, Yan and Chen, Lu and Gao, Yunjun and Zheng, Kai},
   booktitle={2024 IEEE 40th International Conference on Data Engineering (ICDE)},
+  pages={1228--1241},
   year={2024},
   organization={IEEE}
 }
